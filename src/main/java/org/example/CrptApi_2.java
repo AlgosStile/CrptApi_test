@@ -239,9 +239,9 @@ public class CrptApi_2 {
                 CONFORMITY_CERTIFICATE, CONFORMITY_DECLARATION
             }
         }
-        public static void main(String[] args) {
-            CrptApi_2 api = new CrptApi_2(TimeUnit.MINUTE, 0);
-            System.out.println( api.getDocJson(new Document("123", "123", "123", "123", "123", "123", "123", "123", "123", "123"), "123") );
-        }
+//        public static void main(String[] args) {
+//            CrptApi_2 api = new CrptApi_2(TimeUnit.MINUTE, 0);
+//            System.out.println( api.getDocJson(new Document("123", "123", "123", "123", "123", "123", "123", "123", "123", "123"), "123") );
+//        }
     }
 }
